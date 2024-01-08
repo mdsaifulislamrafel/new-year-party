@@ -5,7 +5,8 @@
     font-family: 'Inter', sans-serif;
 }
 
-/* reused styles */
+/* reused styles start */
+
 section {
     padding: 100px;
 }
@@ -20,23 +21,34 @@ section {
     font-size: 20px;
     font-weight: 700;
 }
+.btn-primary:hover {
+    background-color: rgb(10, 1, 14);
+    transition: .5s;
+}
+
+/* anchor tag */
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* reused styles end */
 
 /* header section styles start */
 
 header {
-    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('resources/Banner\ Image.png');
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('resources/Banner-Image.png');
     background-repeat: no-repeat;
     background-position: center center;
     max-width: 1300px;
     height: 600px;
     border-radius: 16px;
     margin: auto;
-    margin: 50px 145px 0;
 }
 
 .header-container {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -45,11 +57,13 @@ header {
 
 .header-container h4 {
     text-align: center;
+    font-family: Merriweather;
     font-size: 32px;
     font-weight: 400;
 }
 
 .header-container h1 {
+    font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
@@ -65,7 +79,6 @@ header {
 .holiday-title {
     color: #F00;
     font-size: 88px;
-    font-style: normal;
     font-weight: 700;
     padding-bottom: 45px;
 }
@@ -107,6 +120,7 @@ header {
 }
 
 .welcome-title {
+    font-family: Merriweather;
     font-size: 64px;
     font-weight: 900;
     line-height: 88px;
@@ -119,6 +133,7 @@ header {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    margin-bottom: 48px;
 }
 
 .welcome-btn {
@@ -156,9 +171,8 @@ header {
     line-height: 56px;
     text-transform: capitalize;
 }
-
-.hotel-btn {
-    margin-top: 48px;
+.hotel-time {
+    margin-bottom: 48px;
 }
 
 /* hotel section styles end */
@@ -253,7 +267,7 @@ header {
 
 .functional-images {
     display: flex;
-    background-image: url('resources/Rectangle\ 2.png');
+    background-image: url('resources/Rectangle-2.png');
     background-repeat: no-repeat;
     background-position: bottom right;
     border-radius: 16px;
@@ -312,16 +326,20 @@ header {
 }
 
 .product {
-    width: 410px;
+    width: 30%;
     padding: 24px;
     border-radius: 16px;
+    border: 2px solid lightcoral;
+    margin-left: 2%;
+    margin-bottom: 2%;
 }
 
 .product:hover {
-    background-color: lightgray;
+    background-color: tomato;
     box-shadow: 0px 5px 50px rgba(0, 0, 0, 0.1);
+    transform: rotate(2deg);
     border-radius: 16px;
-    transition: .5s;
+    transition: .8s;
 }
 
 .gifts-list {
@@ -403,14 +421,17 @@ footer {
 .contact {
     text-align: left;
 }
-footer > hr {
-    background-color: rgba(255, 255, 255, 0.15);
+hr {
     margin-top: 50px;
 }
 .social-link {
     text-align: center;
     padding: 48px;
 
+}
+.social-link img:hover {
+    transform: rotate(360deg);
+    transition: .8s;
 }
 .account-link {
     padding: 0 24px ;
