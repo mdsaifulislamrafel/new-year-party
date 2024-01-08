@@ -9,7 +9,7 @@
 
 section {
     width: 80%;
-    margin-left: 10%;
+    margin: auto;
     margin-top: 10%;
 }
 
@@ -39,38 +39,45 @@ a {
 
 /* header section styles start */
 
-header {
-    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('resources/Banner-Image.png');
-    background-repeat: no-repeat;
-    background-position: center center;
-    max-width: 1300px;
-    height: 600px;
-    border-radius: 16px;
+.container{
+    width: 90%;
     margin: auto;
     margin-top: 5%;
 }
-
 .header-container {
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('resources/Banner-Image.png');
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    position: relative;
+}
+.header-text {
+    width:50%;
+    height: 300px;
     position: absolute;
-    top: 40%;
-    left: 50%;
+    top:50%;
+    left:50%;
     transform: translate(-50%, -50%);
-    text-align: center;
+    margin:auto;
     color: #fff;
 }
 
-.header-container h4 {
+.header-text h4 {
     text-align: center;
     font-family: Merriweather;
     font-size: 32px;
     font-weight: 400;
 }
 
-.header-container h1 {
+.header-text h1 {
     font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
+    text-align: center;
 }
 
 /* header section styles end */
