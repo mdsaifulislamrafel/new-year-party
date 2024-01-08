@@ -394,12 +394,12 @@ header {
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
 }
-
-
-
 .input {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
 /* subscribe newsletter section styles end */
 
 /* footer section styles start */
