@@ -395,11 +395,17 @@ header {
     border-bottom-right-radius: 50px;
 }
 
+
+
+.input {
+    display: flex;
+}
 /* subscribe newsletter section styles end */
 
 /* footer section styles start */
 
 footer {
+    margin-top: 10%;
     background: black;
     color: #fff;
     padding: 120px 140px;
