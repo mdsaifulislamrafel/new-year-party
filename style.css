@@ -45,6 +45,7 @@ header {
     height: 600px;
     border-radius: 16px;
     margin: auto;
+    margin-top: 5%;
 }
 
 .header-container {
