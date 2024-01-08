@@ -8,7 +8,9 @@
 /* reused styles start */
 
 section {
-    padding: 100px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
 }
 
 /* button styles */
@@ -277,7 +279,7 @@ header {
 }
 
 .functional-gift {
-    width: 79.3%;
+    width: 77.5%;
 }
 
 .gift-image {
